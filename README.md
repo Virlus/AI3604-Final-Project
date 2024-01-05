@@ -14,11 +14,6 @@ Please follow the [get_started](https://github.com/open-mmlab/mmsegmentation/blo
 
 Other requirements: `pip install timm==0.5.4 einops==0.4.1`
 
-## Performance
-| Backbone  | Model      | Train Set | Val Set | Iterations | Batch Size | mIoU  | Log | CKPT | Config |
-| --------- | ---------- | --------- | ------- | ---------- | ---------- | ----- | --- | ----   | ----   |
-| MiT-B5 | GMMSeg-Segformer |coco-stuff10k-train     |coco-stuff10k-test     | 80000      | 8xbs2          | 44.81 | [log](https://github.com/leonnnop/release-weights/releases/download/v.neurips22/20221029_173957.log) | [ckpt](https://github.com/leonnnop/release-weights/releases/download/v.neurips22/GMMSeg-Segformer-b5-512x512-80k-cocostuff10k.pth) | [cfg](https://github.com/leonnnop/release-weights/releases/download/v.neurips22/segformer_mit-b5_gmmseg_512x512_80k_cocostuff10k.py) |
-
 ## Usage
 ```shell
 # multi-gpu train
